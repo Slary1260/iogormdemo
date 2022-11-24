@@ -1,0 +1,26 @@
+[[DatabaseConfigs]]
+Port    = 3306
+Host    = "127.0.0.1"
+Mode    = "master"
+User    = "root"
+PassWd  = "123456"
+DBName  = "jgyw"
+Charset = "utf8mb4"   # 默认值:utf8mb4
+
+[[DatabaseConfigs]]
+Port    = 3307
+Host    = "127.0.0.1"
+Mode    = "slave"
+User    = "root"
+PassWd  = "123456"
+DBName  = "jgyw"
+Charset = "utf8mb4"   # 默认值:utf8mb4
+
+[[DatabaseConfigs]]
+Port    = 3308
+Host    = "127.0.0.1"
+Mode    = "slave"
+User    = "root"
+PassWd  = "123456"
+DBName  = "jgyw"
+Charset = "utf8mb4"   # 默认值:utf8mb4
